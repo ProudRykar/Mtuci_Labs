@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,6 +11,9 @@ header {
     color: #fff;
     text-align: center;
     padding: 5px;
+}
+.a_lab {
+    color: #ffffff;ц
 }
 nav ul {
     margin-top: 0;
@@ -137,4 +141,62 @@ img {
 }
 .spaced-contacts-discord {
     margin-bottom: 50px;
+}
+
+.contact {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100px;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #18181a;
+    box-shadow: 0 0 8px 1px;
+    transition: .5x;
+}
+
+.icon-row {
+    justify-content: center; /* Выравнивание по горизонтали по центру */
+    align-items: center; /* Выравнивание по вертикали по центру */
+    display: flex;
+  }
+  
+  .icon-container {
+    position: relative;
+    width: 150px; /* Ширина контейнера */
+    height: 150px; /* Высота контейнера */
+    margin: 30px; /* Расстояние между иконками */
+  }
+  
+  .icon-container img {
+    width: 100%; /* Ширина изображения занимает 100% ширины контейнера */
+    height: 100%; /* Высота изображения занимает 100% высоты контейнера */
+    transition: filter 0.3s, box-shadow 0.3s;
+    filter: brightness(100%);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0); /* Начальное значение размытия */
+    border-radius: 50%;
+}
+  
+  .icon-container:hover img {
+    filter: brightness(150%); /* Увеличьте значение, чтобы усилить эффект неона */
+    box-shadow: 0 0 20px rgba(141, 248, 230, 0.8); /* Измените значение размытия и цвета */
+}
+
+.Telegramm-icon {
+    border-radius: 50%;
+    background: #0088cc;
+}
+.Vk-icon {
+    border-radius: 50%;
+    background: #597da3;
+}
+.Discord-icon {
+    border-radius: 50%;
+    background: #5865F2;
+}
+.Github-icon {
+    border-radius: 50%;
+    background: linear-gradient(135deg, #000000, #FFFFFF); /* Градиентный фон */
 }
